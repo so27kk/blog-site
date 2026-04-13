@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LUMINARY — 빛을 담은 글</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Noto+Serif+KR:wght@300;400;500;700&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet"/>
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet"/>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- ════════════════════════════
+     NAV
+════════════════════════════ -->
+<header class="site-header">
+  <div class="nav-inner">
+    <a href="#" class="site-logo">Lumin<span>ary</span></a>
+    <ul class="nav-links">
+      <li><a href="#">홈</a></li>
+      <li><a href="#">에세이</a></li>
+      <li><a href="#">여행</a></li>
+      <li><a href="#">문화</a></li>
+      <li><a href="#">소개</a></li>
+    </ul>
+    <button class="nav-search border-0">
+      <i class="bi bi-search"></i>
+      <span>검색</span>
+    </button>
+  </div>
+</header>
+
+<!-- ════════════════════════════
+     HERO
+════════════════════════════ -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-ornament"></div>
+  <div class="container-custom">
+    <div class="hero-content">
+      <div class="hero-eyebrow">No.001 — 글이 빛이 되는 곳</div>
+      <h1 class="hero-title">
+        생각을<br/>
+        <em>담아두는</em><br/>
+        공간
+      </h1>
+      <p class="hero-sub">
+        일상의 틈새에서 발견한 아름다움을, 언어라는 그릇에 조심스레 담습니다.
+        당신의 하루에 작은 빛 한 조각이 되기를 바라며.
+      </p>
+      <div class="hero-cta">
+        <a href="#latest" class="btn-gold">최신 글 읽기</a>
+        <a href="#about" class="btn-outline-ink">블로그 소개</a>
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <div class="scroll-line"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- ════════════════════════════
+     CATEGORIES STRIP
+════════════════════════════ -->
+<div class="cat-strip">
+  <div class="container-custom">
+    <div class="cat-scroll">
+      <div class="cat-item">
+        <i class="bi bi-feather cat-icon"></i>
+        <div class="cat-name">에세이</div>
+        <div class="cat-count">24편</div>
+      </div>
+      <div class="cat-item">
+        <i class="bi bi-airplane cat-icon"></i>
+        <div class="cat-name">여행</div>
+        <div class="cat-count">17편</div>
+      </div>
+      <div class="cat-item">
+        <i class="bi bi-book cat-icon"></i>
+        <div class="cat-name">독서</div>
+        <div class="cat-count">31편</div>
+      </div>
+      <div class="cat-item">
+        <i class="bi bi-music-note-beamed cat-icon"></i>
+        <div class="cat-name">문화</div>
+        <div class="cat-count">12편</div>
+      </div>
+      <div class="cat-item">
+        <i class="bi bi-camera cat-icon"></i>
+        <div class="cat-name">사진</div>
+        <div class="cat-count">08편</div>
+      </div>
+      <div class="cat-item">
+        <i class="bi bi-cup-hot cat-icon"></i>
+        <div class="cat-name">일상</div>
+        <div class="cat-count">42편</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ════════════════════════════
+     FEATURED POST
+════════════════════════════ -->
+<section class="featured-section">
+  <div class="container-custom">
+    <div class="row mb-4 reveal">
+      <div class="col">
+        <div class="section-label">Featured Post</div>
+        <h2 class="section-title">이달의 추천글</h2>
+      </div>
+    </div>
+    <div class="featured-card reveal">
+      <div class="featured-img">
+        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="여행"/>
+        <div class="featured-img-overlay"></div>
+        <span class="featured-badge">✦ 이달의 픽</span>
+      </div>
+      <div class="featured-body">
+        <div class="featured-cat">여행 · Travel</div>
+        <a href="#" class="featured-title d-block">
+          알프스 산장에서 보낸 사흘 — 고요함이 가르쳐 준 것들
+        </a>
+        <p class="featured-excerpt">
+          해발 2,100미터의 산장에서, 전화도 인터넷도 없이 보낸 사흘.
+          처음엔 불안했다. 손이 자꾸 주머니 속 빈 공간을 더듬었다.
+          그러나 이틀이 지나자 귀가 열리기 시작했다 — 바람 소리, 눈 녹는 소리, 자신의 숨소리.
+        </p>
+        <div class="featured-meta">
+          <div class="featured-avatar">K</div>
+          <div class="featured-meta-text">
+            <strong>김하늘</strong>
+            2026년 3월 28일 · 읽는 데 8분
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════
+     LATEST POSTS + SIDEBAR
+════════════════════════════ -->
+<section class="latest-section" id="latest">
+  <div class="container-custom">
+    <div class="row mb-5 reveal">
+      <div class="col-md-6">
+        <div class="section-label">Latest Posts</div>
+        <h2 class="section-title">최신 글</h2>
+      </div>
+      <div class="col-md-6 d-flex align-items-end justify-content-md-end mt-3 mt-md-0">
+        <a href="#" class="btn-outline-ink">모든 글 보기 →</a>
+      </div>
+    </div>
+
+    <div class="row g-4">
+
+      <!-- Post Grid -->
+      <div class="col-lg-8">
+        <div class="row g-4">
+
+          <div class="col-sm-6 reveal">
+            <div class="post-card">
+              <div class="post-img">
+                <img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=600&q=80" alt="독서"/>
+                <span class="post-cat-tag">독서</span>
+              </div>
+              <div class="post-body">
+                <a href="#" class="post-title">카뮈를 다시 읽는 봄의 오후</a>
+                <p class="post-excerpt">이방인을 처음 읽었던 열여섯 살과, 서른 둘의 나 사이에 쌓인 것들에 대하여.</p>
+                <div class="post-footer">
+                  <span><i class="bi bi-clock me-1"></i>6분</span>
+                  <a href="#" class="post-read-more">읽기 <i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 reveal">
+            <div class="post-card">
+              <div class="post-img">
+                <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80" alt="커피"/>
+                <span class="post-cat-tag">일상</span>
+              </div>
+              <div class="post-body">
+                <a href="#" class="post-title">완벽한 아침 커피를 위한 12년의 기록</a>
+                <p class="post-excerpt">그루밍처럼, 어느 날 갑자기 의식이 되어버린 일들이 있다. 내게 커피가 그랬다.</p>
+                <div class="post-footer">
+                  <span><i class="bi bi-clock me-1"></i>5분</span>
+                  <a href="#" class="post-read-more">읽기 <i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 reveal">
+            <div class="post-card">
+              <div class="post-img">
+                <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600&q=80" alt="음악"/>
+                <span class="post-cat-tag">문화</span>
+              </div>
+              <div class="post-body">
+                <a href="#" class="post-title">재즈바에서 혼자 마신 위스키 한 잔</a>
+                <p class="post-excerpt">서울 한복판에서, 1960년대 뉴욕의 어느 밤으로 순간이동하는 법.</p>
+                <div class="post-footer">
+                  <span><i class="bi bi-clock me-1"></i>4분</span>
+                  <a href="#" class="post-read-more">읽기 <i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 reveal">
+            <div class="post-card">
+              <div class="post-img">
+                <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=600&q=80" alt="여행"/>
+                <span class="post-cat-tag">여행</span>
+              </div>
+              <div class="post-body">
+                <a href="#" class="post-title">포르투 골목길의 아줄레주와 파두</a>
+                <p class="post-excerpt">포르투갈어로 '그리움'을 뜻하는 사우다데. 나는 그 나라를 만나기도 전에 그리워했다.</p>
+                <div class="post-footer">
+                  <span><i class="bi bi-clock me-1"></i>7분</span>
+                  <a href="#" class="post-read-more">읽기 <i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div><!-- /col-lg-8 -->
+
+      <!-- Sidebar -->
+      <div class="col-lg-4">
+
+        <!-- About -->
+        <div class="about-widget reveal" id="about">
+          <div class="about-avatar">K</div>
+          <div class="about-name">김하늘</div>
+          <p class="about-bio mt-2">
+            글 쓰는 직장인. 주말엔 카페, 평일엔 지하철 안에서 세상을 관찰합니다.
+            좋아하는 것: 오래된 책, 검은 커피, 느린 여행.
+          </p>
+          <div class="d-flex justify-content-center gap-2 mt-3">
+            <a href="#" class="social-btn"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="social-btn"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" class="social-btn"><i class="bi bi-envelope"></i></a>
+          </div>
+        </div>
+
+        <!-- Popular Posts -->
+        <div class="mb-4 reveal">
+          <div class="widget-title">인기글</div>
+          <div class="popular-post">
+            <div class="popular-num">01</div>
+            <div>
+              <a href="#" class="popular-title">혼자 떠나는 여행이 좋은 이유 다섯 가지</a>
+              <span class="popular-date">2026. 02. 14</span>
+            </div>
+          </div>
+          <div class="popular-post">
+            <div class="popular-num">02</div>
+            <div>
+              <a href="#" class="popular-title">서울에서 가장 조용한 카페를 찾아서</a>
+              <span class="popular-date">2026. 01. 30</span>
+            </div>
+          </div>
+          <div class="popular-post">
+            <div class="popular-num">03</div>
+            <div>
+              <a href="#" class="popular-title">30대가 되어서야 읽은 헤르만 헤세</a>
+              <span class="popular-date">2025. 12. 20</span>
+            </div>
+          </div>
+          <div class="popular-post">
+            <div class="popular-num">04</div>
+            <div>
+              <a href="#" class="popular-title">한 달에 한 권, 1년 독서 회고</a>
+              <span class="popular-date">2025. 12. 31</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tag Cloud -->
+        <div class="reveal">
+          <div class="widget-title">태그</div>
+          <div class="tag-cloud">
+            <a href="#" class="tag-pill">에세이</a>
+            <a href="#" class="tag-pill">여행</a>
+            <a href="#" class="tag-pill">독서</a>
+            <a href="#" class="tag-pill">서울</a>
+            <a href="#" class="tag-pill">커피</a>
+            <a href="#" class="tag-pill">음악</a>
+            <a href="#" class="tag-pill">사진</a>
+            <a href="#" class="tag-pill">유럽</a>
+            <a href="#" class="tag-pill">일본</a>
+            <a href="#" class="tag-pill">문화</a>
+            <a href="#" class="tag-pill">영화</a>
+            <a href="#" class="tag-pill">회고</a>
+          </div>
+        </div>
+
+      </div><!-- /sidebar -->
+
+    </div><!-- /row -->
+  </div>
+</section>
+
+<!-- ════════════════════════════
+     QUOTE
+════════════════════════════ -->
+<section class="quote-section">
+  <div class="container-custom">
+    <div class="blockquote-custom reveal">
+      <p>
+        "글을 쓴다는 것은 기억을 붙잡아두는 일이 아니라,
+        기억이 우리에게 무엇을 하는지 관찰하는 일이다."
+      </p>
+      <footer>— Joan Didion, The Year of Magical Thinking</footer>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════
+     NEWSLETTER
+════════════════════════════ -->
+<section class="newsletter-section">
+  <div class="container-custom">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6 reveal">
+        <div class="newsletter-label">Newsletter</div>
+        <h2 class="newsletter-title">매주 금요일,<br/>당신의 받은편지함으로</h2>
+        <p class="newsletter-sub">
+          새로운 글과 함께, 그 주를 살며 발견한 작은 것들을 전합니다.
+          스팸은 없습니다. 언제든 구독 취소 가능합니다.
+        </p>
+        <div class="newsletter-form">
+          <input type="email" class="newsletter-input" placeholder="이메일 주소를 입력하세요"/>
+          <button class="newsletter-btn">구독하기</button>
+        </div>
+        <p class="newsletter-note">현재 구독자 1,247명 · 매주 금요일 발송</p>
+      </div>
+      <div class="col-lg-6 reveal d-none d-lg-block">
+        <div class="newsletter-deco">
+          <div style="background:rgba(245,240,232,0.1)"></div>
+          <div style="background:rgba(201,168,76,0.2)"></div>
+          <div style="background:rgba(201,168,76,0.15)"></div>
+          <div style="background:rgba(245,240,232,0.05)"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════
+     FOOTER
+════════════════════════════ -->
+<footer class="site-footer">
+  <div class="container-custom">
+    <div class="row g-5">
+
+      <div class="col-lg-4">
+        <div class="footer-logo">Lumin<span>ary</span></div>
+        <div class="footer-tagline">빛을 담은 글들의 집</div>
+        <p class="footer-desc">
+          평범한 일상 속에서 빛나는 순간들을 찾아 글로 기록합니다.
+          2021년부터, 서울에서.
+        </p>
+        <div class="footer-social">
+          <a href="#" class="social-btn"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="social-btn"><i class="bi bi-twitter-x"></i></a>
+          <a href="#" class="social-btn"><i class="bi bi-youtube"></i></a>
+          <a href="#" class="social-btn"><i class="bi bi-rss"></i></a>
+        </div>
+      </div>
+
+      <div class="col-sm-4 col-lg-2">
+        <div class="footer-heading">카테고리</div>
+        <ul class="footer-links">
+          <li><a href="#">에세이</a></li>
+          <li><a href="#">여행</a></li>
+          <li><a href="#">독서</a></li>
+          <li><a href="#">문화</a></li>
+          <li><a href="#">일상</a></li>
+          <li><a href="#">사진</a></li>
+        </ul>
+      </div>
+
+      <div class="col-sm-4 col-lg-2">
+        <div class="footer-heading">페이지</div>
+        <ul class="footer-links">
+          <li><a href="#">소개</a></li>
+          <li><a href="#">아카이브</a></li>
+          <li><a href="#">뉴스레터</a></li>
+          <li><a href="#">협업 문의</a></li>
+          <li><a href="#">RSS</a></li>
+        </ul>
+      </div>
+
+      <div class="col-sm-4 col-lg-4">
+        <div class="footer-heading">최근 댓글</div>
+        <div class="footer-comments">
+          <p><span class="commenter">민준씨</span> — "포르투 편 읽고 당장 항공권 검색했습니다..."</p>
+          <p><span class="commenter">서연</span> — "카뮈 글에 밑줄 세 번 그었어요. 감사합니다."</p>
+          <p><span class="commenter">익명</span> — "아침마다 읽는 유일한 블로그입니다."</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 Luminary. All rights reserved.</span>
+      <span>Made with <span class="footer-heart">♥</span> in Seoul</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Custom JS -->
+<script src="main.js"></script>
+
+</body>
+</html>
